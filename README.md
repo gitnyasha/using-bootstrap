@@ -2,7 +2,7 @@
 
 A Newsweek website clone using bootstrap
 
-![Screenshot from 2020-01-01 19-35-13](https://user-images.githubusercontent.com/45620987/71965570-9c33f780-3208-11ea-8964-fa577f588ea1.png)
+![Screenshot from 2020-01-08 11-14-18](https://user-images.githubusercontent.com/45620987/71971207-d0acb100-3212-11ea-9679-f3540703acf6.png)
 
 # What it does
 
