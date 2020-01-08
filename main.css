@@ -1,86 +1,85 @@
 ul li {
-    list-style: none;
-    display: inline-block;
+        list-style: none;
+        display: inline-block;
 }
 
 .header {
-    width: 100%;
-    height: 100px;
-    background-color: #f72210;
-    color: #fff;
-    display: inline-flex;
-    padding-top: 30px;
+        width: 100%;
+        height: 100px;
+        background-color: #f72210;
+        color: #fff;
+        display: inline-flex;
+        padding-top: 30px;
 }
 
 .container-fluid img {
-    width: 100%;
+        width: 100%;
 }
 
 .navbar-toggler {
-    display: none;
+        display: none;
 }
 
 .hidden {
-    display: none;
+        display: none;
 }
 
 .header .center {
-    width: 70%;
-    text-align: center;
+        width: 70%;
+    t   ext-align: center;
 }
 
 .header .center a {
-    color: #fff;
-    font-size: 66px;
+        color: #fff;
+        font-size: 66px;
 }
 
-
 .subscribe {
-    background-color: #fff;
-    color: #f72210;
-    padding: 5px 10px;
+        background-color: #fff;
+        color: #f72210;
+        padding: 5px 10px;
 }
 
 .sign {
-    color: #fff;
+        color: #fff;
 }
 
 .nav-item {
-    border-right: solid thin lightgrey;
-    padding: 0 20px;
+        border-right: solid thin lightgrey;
+        padding: 0 20px;
 }
 
 .nav-item a {
-    color: black;
-    font-weight: 700;
+        color: black;
+        font-weight: 700;
 }
 
 .head {
-    display: none;
+        display: none;
 }
 
 .row a {
-    color: black;
+        color: black;
 }
 
 .row a:hover {
-    color: red;
+        color: red;
 }
 
 .row {
-    border-bottom: solid thin lightgrey;
+        border-bottom: solid thin lightgrey;
 }
 
 footer ul li {
-    list-style: none;
+        list-style: none;
 }
 
 footer ul li a {
-    color: darkgrey;
+        color: darkgrey;
 }
 
 footer .copy {
-    display: inline;
+        display: inline;
 }
 
 @media only screen and (max-width: 992px) {
