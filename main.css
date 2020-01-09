@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 ul li {
     list-style: none;
     display: inline-block;
@@ -9,7 +13,11 @@ ul li {
     background-color: #f72210;
     color: #fff;
     display: inline-flex;
-    padding-top: 30px;
+    padding-top: 20px;
+}
+
+.topright .fas {
+    display: none;
 }
 
 .container-fluid img {
@@ -29,9 +37,9 @@ ul li {
     text-align: center;
 }
 
-.header .center a {
-    color: #fff;
-    font-size: 66px;
+.header .center img {
+    object-fit: scale-down;
+    object-position: top;
 }
 
 .subscribe {
@@ -104,7 +112,7 @@ footer .copy {
     .header {
         width: 100%;
         height: 60px;
-        padding-top: 10px;
+        padding-top: 0;
         position: fixed;
         z-index: 99;
     }
@@ -115,12 +123,13 @@ footer .copy {
 
     .hidden img {
         width: 150px;
+        margin-top: 5px;
         object-fit: scale-down;
     }
 
-    .navbar-toggler .fas {
+    .fas {
         color: #fff;
-        font-size: 32px;
+        font-size: 26px;
     }
 
     .date {
@@ -128,20 +137,16 @@ footer .copy {
     }
 
     .header .center {
-        width: 50%;
+        width: auto;
     }
 
     .topright {
-        padding-right: 10px;
+        position: absolute;
+        right: 10px;
     }
 
-    .subscribe {
-        font-size: 12px;
-        height: 30px;
-    }
-    
-    .sign {
-        font-size: 12px;
+    .topright .fas {
+        display: contents;
     }
 
     .center img {
@@ -155,6 +160,6 @@ footer .copy {
 
 @media only screen and (max-width: 600px) {
     .header .center {
-        width: 15%;
+        width: 10%;
     }
 }

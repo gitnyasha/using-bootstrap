@@ -18,7 +18,7 @@ It displays my skills in create a full responsive website using bootstrap
 
 ## Live Demo
 
-[Live Demo](https://gitnyasha.github.io/using-bootstrap/)
+[Live Demo](https://elegant-liskov-25478d.netlify.com/)
 
 ## Getting Started
 
